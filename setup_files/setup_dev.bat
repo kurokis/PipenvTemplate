@@ -1,5 +1,6 @@
-rem カレントディレクトリを実行したバッチファイルのディレクトリにする
+rem カレントディレクトリを実行したバッチファイルの親ディレクトリにする
 cd /d %~dp0
+cd /d ..
 
 rem pipをアップグレード
 C:\Windows\py.exe -m pip install --upgrade pip

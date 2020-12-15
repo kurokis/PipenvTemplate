@@ -2,6 +2,6 @@ rem カレントディレクトリを実行したバッチファイルのディ�
 cd /d %~dp0
 
 rem スクリプト実行
-C:\Windows\py.exe -m pipenv run python helloworld.py
+py -m pipenv run python helloworld.py
 
 pause

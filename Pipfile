@@ -3,30 +3,31 @@ name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
 
-[dev-packages]
-# State transition libraries
-graphviz = "*"
-transitions = "*"
-
 [packages]
-# Essentials
+#### Essentials ####
 numpy = "*"
 pandas = "*"
 matplotlib = "*"
 
-# Libraries for using ASAMMDF
+#### Libraries for using ASAMMDF ###
 asammdf = "*"
 pyqtgraph = "*"
+pyqt5 = "*"
 xlrd = "*"
 xlsxwriter = "*"
 xlwt = "*"
 pyyaml = "*"
 
-# Utilities
-clipboard = "*"
-jupyter = "*"
-openpyxl = "*"
+#### Utilities ####
+clipboard = "*" # get data from clipboard
+jupyter = "*" # jupyter notebook
+openpyxl = "*" # manipulate excel
+yapf = "*" # code formatting
 
+[dev-packages]
+#### State transition libraries ####
+graphviz = "*"
+transitions = "*"
 
 [requires]
 python_version = "3"
