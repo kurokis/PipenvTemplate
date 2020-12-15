@@ -4,12 +4,29 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-jupyter = "*"
+# State transition libraries
+graphviz = "*"
+transitions = "*"
 
 [packages]
+# Essentials
 numpy = "*"
 pandas = "*"
+matplotlib = "*"
+
+# Libraries for using ASAMMDF
+asammdf = "*"
+pyqtgraph = "*"
+xlrd = "*"
+xlsxwriter = "*"
+xlwt = "*"
+pyyaml = "*"
+
+# Utilities
+clipboard = "*"
+jupyter = "*"
 openpyxl = "*"
+
 
 [requires]
 python_version = "3"
