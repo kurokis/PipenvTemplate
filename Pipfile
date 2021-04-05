@@ -28,6 +28,7 @@ yapf = "*" # code formatting
 qrcode = "*" # QR code generation
 plotly = "*" # interactive plotting
 jinja2 = "*" # templating engine
+markdown = "*" # markdown
 
 [dev-packages]
 #### State transition libraries ####

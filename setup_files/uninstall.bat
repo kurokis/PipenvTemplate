@@ -1,8 +1,8 @@
-rem カレントディレクトリを実行したバッチファイルの親ディレクトリにする
+rem Change the current directory to where this batch file exists
 cd /d %~dp0
 cd /d ..
 
-rem 削除してよいか確認する
+rem Confirm deletion of the virtual environment
 @echo off
 set /p choice="Delete Pipfile.lock and .venv in the parent directory? (y/n) "
 if /i {%choice%}=={y} (goto :yes)

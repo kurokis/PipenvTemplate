@@ -1,17 +1,17 @@
-rem カレントディレクトリを実行したバッチファイルの親ディレクトリにする
+rem Change the current directory to where this batch file exists
 cd /d %~dp0
 cd /d ..
 
-rem pipをアップグレード
+rem Upgrade pip
 pip install --upgrade pip
 
-rem pipenvをインストールする
+rem Install pipenv
 pip install pipenv 
 
-rem 環境変数を変更し、カレントディレクトリ以下に仮想環境をインストールさせる
+rem Change environment variable to let pipenv create a virtual environement under the current directory
 set PIPENV_VENV_IN_PROJECT=1
 
-rem 仮想環境をデプロイ(--devオプションで開発用パッケージもインストールする)
+rem Install the virtual environment (use --dev option to install dev-package dependencies)
 pipenv install --dev
 
 pause
