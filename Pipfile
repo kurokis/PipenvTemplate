@@ -9,7 +9,7 @@ numpy = "*"
 pandas = "*"
 matplotlib = "*"
 
-#### Libraries for using ASAMMDF ###
+#### Libraries for using ASAMMDF ####
 asammdf = "*"
 pyqtgraph = "*"
 pyqt5 = "*"
@@ -17,17 +17,23 @@ xlrd = "*"
 xlsxwriter = "*"
 xlwt = "*"
 pyyaml = "*"
+natsort = "*"
+psutil = "*"
 
 #### Utilities ####
 clipboard = "*" # get data from clipboard
 jupyter = "*" # jupyter notebook
 openpyxl = "*" # manipulate excel
 yapf = "*" # code formatting
+qrcode = "*" # QR code generation
+plotly = "*" # interactive plotting
+jinja2 = "*" # templating engine
 
 [dev-packages]
 #### State transition libraries ####
 graphviz = "*"
 transitions = "*"
+scipy = "*"
 
 [requires]
 python_version = "3"
