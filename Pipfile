@@ -27,6 +27,7 @@ openpyxl = "*" # manipulate excel
 yapf = "*" # code formatting
 qrcode = "*" # QR code generation
 plotly = "*" # interactive plotting
+bokeh = "*" # interactive plotting
 jinja2 = "*" # templating engine
 markdown = "*" # markdown
 
